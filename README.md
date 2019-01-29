@@ -2,7 +2,7 @@
 
 Disk_parameterization;
 
-Disk paramaterization is used to flatten the face mesh. In this project, uniform weights used to obtain flattening mesh. 
+Disk paramaterization is used to flatten face mesh object. In this project, uniform weights used to obtain flattening mesh. 
 For preserving triangle shapes in mesh during flattening process, harmonic or mean-value weights might be used in laplacian matrix.
 
 Simply solving sparse system, eigen library is used.
