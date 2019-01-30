@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F922E5AA21BAD034005E28F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F922E5A921BAD034005E28F2 /* main.cpp */; };
+		F922E5B221BAD0C1005E28F2 /* libSoQt.20.5.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F922E5B121BAD0C1005E28F2 /* libSoQt.20.5.0.dylib */; };
+		F922E5B421BAD0D9005E28F2 /* libCoin.60.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F922E5B321BAD0D9005E28F2 /* libCoin.60.1.3.dylib */; };
+		F922E5B721BAD114005E28F2 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F922E5B521BAD114005E28F2 /* Mesh.cpp */; };
+		F922E5BA21BAD11F005E28F2 /* Painter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F922E5B821BAD11F005E28F2 /* Painter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F922E5A421BAD034005E28F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F922E5A621BAD034005E28F2 /* dijkstra */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dijkstra; sourceTree = BUILT_PRODUCTS_DIR; };
+		F922E5A921BAD034005E28F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F922E5B121BAD0C1005E28F2 /* libSoQt.20.5.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSoQt.20.5.0.dylib; path = ../../../../../opt/local/Library/Frameworks/SoQt.framework/Versions/A/Libraries/libSoQt.20.5.0.dylib; sourceTree = "<group>"; };
+		F922E5B321BAD0D9005E28F2 /* libCoin.60.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCoin.60.1.3.dylib; path = ../../../../../opt/local/Library/Frameworks/Inventor.framework/Versions/C/Libraries/libCoin.60.1.3.dylib; sourceTree = "<group>"; };
+		F922E5B521BAD114005E28F2 /* Mesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		F922E5B621BAD114005E28F2 /* Mesh.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mesh.hpp; sourceTree = "<group>"; };
+		F922E5B821BAD11F005E28F2 /* Painter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Painter.cpp; sourceTree = "<group>"; };
+		F922E5B921BAD11F005E28F2 /* Painter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Painter.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F922E5A321BAD034005E28F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F922E5B421BAD0D9005E28F2 /* libCoin.60.1.3.dylib in Frameworks */,
+				F922E5B221BAD0C1005E28F2 /* libSoQt.20.5.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F922E59D21BAD034005E28F2 = {
+			isa = PBXGroup;
+			children = (
+				F922E5A821BAD034005E28F2 /* dijkstra */,
+				F922E5A721BAD034005E28F2 /* Products */,
+				F922E5B021BAD0C1005E28F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F922E5A721BAD034005E28F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F922E5A621BAD034005E28F2 /* dijkstra */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F922E5A821BAD034005E28F2 /* dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				F922E5A921BAD034005E28F2 /* main.cpp */,
+				F922E5B821BAD11F005E28F2 /* Painter.cpp */,
+				F922E5B921BAD11F005E28F2 /* Painter.hpp */,
+				F922E5B521BAD114005E28F2 /* Mesh.cpp */,
+				F922E5B621BAD114005E28F2 /* Mesh.hpp */,
+			);
+			path = dijkstra;
+			sourceTree = "<group>";
+		};
+		F922E5B021BAD0C1005E28F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F922E5B321BAD0D9005E28F2 /* libCoin.60.1.3.dylib */,
+				F922E5B121BAD0C1005E28F2 /* libSoQt.20.5.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F922E5A521BAD034005E28F2 /* dijkstra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F922E5AD21BAD034005E28F2 /* Build configuration list for PBXNativeTarget "dijkstra" */;
+			buildPhases = (
+				F922E5A221BAD034005E28F2 /* Sources */,
+				F922E5A321BAD034005E28F2 /* Frameworks */,
+				F922E5A421BAD034005E28F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dijkstra;
+			productName = dijkstra;
+			productReference = F922E5A621BAD034005E28F2 /* dijkstra */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F922E59E21BAD034005E28F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ethem Bilgehan CICEK";
+				TargetAttributes = {
+					F922E5A521BAD034005E28F2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F922E5A121BAD034005E28F2 /* Build configuration list for PBXProject "dijkstra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F922E59D21BAD034005E28F2;
+			productRefGroup = F922E5A721BAD034005E28F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F922E5A521BAD034005E28F2 /* dijkstra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F922E5A221BAD034005E28F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F922E5B721BAD114005E28F2 /* Mesh.cpp in Sources */,
+				F922E5AA21BAD034005E28F2 /* main.cpp in Sources */,
+				F922E5BA21BAD11F005E28F2 /* Painter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F922E5AB21BAD034005E28F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F922E5AC21BAD034005E28F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F922E5AE21BAD034005E28F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/Library/Frameworks/SoQt.framework/Versions/A/Libraries,
+					/opt/local/Library/Frameworks/Inventor.framework/Versions/C/Libraries,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F922E5AF21BAD034005E28F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/Library/Frameworks/SoQt.framework/Versions/A/Libraries,
+					/opt/local/Library/Frameworks/Inventor.framework/Versions/C/Libraries,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F922E5A121BAD034005E28F2 /* Build configuration list for PBXProject "dijkstra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F922E5AB21BAD034005E28F2 /* Debug */,
+				F922E5AC21BAD034005E28F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F922E5AD21BAD034005E28F2 /* Build configuration list for PBXNativeTarget "dijkstra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F922E5AE21BAD034005E28F2 /* Debug */,
+				F922E5AF21BAD034005E28F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F922E59E21BAD034005E28F2 /* Project object */;
+}
