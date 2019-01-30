@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F925E31721E0A25600E9428C /* HoleFiller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F925E31521E0A25600E9428C /* HoleFiller.cpp */; };
+		F9C546BF21E6664400ACE011 /* libCGAL_Core.13.0.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C546B321E620C700ACE011 /* libCGAL_Core.13.0.2.dylib */; };
+		F9C546C021E6664400ACE011 /* libCGAL_Core.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C546B521E620CA00ACE011 /* libCGAL_Core.13.dylib */; };
+		F9C546C121E6664400ACE011 /* libCGAL_Core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C546B721E620CC00ACE011 /* libCGAL_Core.dylib */; };
+		F9C546C221E6664400ACE011 /* libCGAL.13.0.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C546B921E620CE00ACE011 /* libCGAL.13.0.2.dylib */; };
+		F9C546C321E6664400ACE011 /* libCGAL.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C546BB21E620D000ACE011 /* libCGAL.13.dylib */; };
+		F9C546C421E6664400ACE011 /* libCGAL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C546BD21E620D200ACE011 /* libCGAL.dylib */; };
+		F9F5B8A321DEBBEB009DC63E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F5B8A221DEBBEB009DC63E /* main.cpp */; };
+		F9F5B8AE21DEBD43009DC63E /* Painter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F5B8AC21DEBD43009DC63E /* Painter.cpp */; };
+		F9F5B8B121DEBDB2009DC63E /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F5B8AF21DEBDB2009DC63E /* Mesh.cpp */; };
+		F9F5B8B721DEC0A4009DC63E /* libSoQt.20.5.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F5B8B621DEC0A4009DC63E /* libSoQt.20.5.0.dylib */; };
+		F9F5B8B921DEC0AF009DC63E /* libCoin.60.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F5B8B821DEC0AF009DC63E /* libCoin.60.1.3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9F5B89D21DEBBEB009DC63E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F925E31521E0A25600E9428C /* HoleFiller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HoleFiller.cpp; sourceTree = "<group>"; };
+		F925E31621E0A25600E9428C /* HoleFiller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HoleFiller.hpp; sourceTree = "<group>"; };
+		F9C546A721E5FE8100ACE011 /* libCGAL_Core.13.0.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL_Core.13.0.2.dylib; path = ../../../../../usr/local/Cellar/cgal/4.13/lib/libCGAL_Core.13.0.2.dylib; sourceTree = "<group>"; };
+		F9C546A921E5FE8500ACE011 /* libCGAL.13.0.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL.13.0.2.dylib; path = ../../../../../usr/local/Cellar/cgal/4.13/lib/libCGAL.13.0.2.dylib; sourceTree = "<group>"; };
+		F9C546AB21E5FE9300ACE011 /* libCGAL_Core.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL_Core.13.dylib; path = ../../../../../usr/local/Cellar/cgal/4.13/lib/libCGAL_Core.13.dylib; sourceTree = "<group>"; };
+		F9C546AD21E5FE9500ACE011 /* libCGAL_Core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL_Core.dylib; path = ../../../../../usr/local/Cellar/cgal/4.13/lib/libCGAL_Core.dylib; sourceTree = "<group>"; };
+		F9C546AF21E5FE9700ACE011 /* libCGAL.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL.13.dylib; path = ../../../../../usr/local/Cellar/cgal/4.13/lib/libCGAL.13.dylib; sourceTree = "<group>"; };
+		F9C546B121E5FE9900ACE011 /* libCGAL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL.dylib; path = ../../../../../usr/local/Cellar/cgal/4.13/lib/libCGAL.dylib; sourceTree = "<group>"; };
+		F9C546B321E620C700ACE011 /* libCGAL_Core.13.0.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL_Core.13.0.2.dylib; path = ../../../../../usr/local/lib/libCGAL_Core.13.0.2.dylib; sourceTree = "<group>"; };
+		F9C546B521E620CA00ACE011 /* libCGAL_Core.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL_Core.13.dylib; path = ../../../../../usr/local/lib/libCGAL_Core.13.dylib; sourceTree = "<group>"; };
+		F9C546B721E620CC00ACE011 /* libCGAL_Core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL_Core.dylib; path = ../../../../../usr/local/lib/libCGAL_Core.dylib; sourceTree = "<group>"; };
+		F9C546B921E620CE00ACE011 /* libCGAL.13.0.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL.13.0.2.dylib; path = ../../../../../usr/local/lib/libCGAL.13.0.2.dylib; sourceTree = "<group>"; };
+		F9C546BB21E620D000ACE011 /* libCGAL.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL.13.dylib; path = ../../../../../usr/local/lib/libCGAL.13.dylib; sourceTree = "<group>"; };
+		F9C546BD21E620D200ACE011 /* libCGAL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL.dylib; path = ../../../../../usr/local/lib/libCGAL.dylib; sourceTree = "<group>"; };
+		F9F5B89F21DEBBEB009DC63E /* HoleFill */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HoleFill; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F5B8A221DEBBEB009DC63E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F9F5B8AC21DEBD43009DC63E /* Painter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Painter.cpp; sourceTree = "<group>"; };
+		F9F5B8AD21DEBD43009DC63E /* Painter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Painter.hpp; sourceTree = "<group>"; };
+		F9F5B8AF21DEBDB2009DC63E /* Mesh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		F9F5B8B021DEBDB2009DC63E /* Mesh.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mesh.hpp; sourceTree = "<group>"; };
+		F9F5B8B621DEC0A4009DC63E /* libSoQt.20.5.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSoQt.20.5.0.dylib; path = ../../../../../opt/local/Library/Frameworks/SoQt.framework/Versions/A/Libraries/libSoQt.20.5.0.dylib; sourceTree = "<group>"; };
+		F9F5B8B821DEC0AF009DC63E /* libCoin.60.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCoin.60.1.3.dylib; path = ../../../../../opt/local/Library/Frameworks/Inventor.framework/Versions/C/Libraries/libCoin.60.1.3.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F5B89C21DEBBEB009DC63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F5B8B721DEC0A4009DC63E /* libSoQt.20.5.0.dylib in Frameworks */,
+				F9C546BF21E6664400ACE011 /* libCGAL_Core.13.0.2.dylib in Frameworks */,
+				F9C546C021E6664400ACE011 /* libCGAL_Core.13.dylib in Frameworks */,
+				F9C546C121E6664400ACE011 /* libCGAL_Core.dylib in Frameworks */,
+				F9C546C221E6664400ACE011 /* libCGAL.13.0.2.dylib in Frameworks */,
+				F9C546C321E6664400ACE011 /* libCGAL.13.dylib in Frameworks */,
+				F9C546C421E6664400ACE011 /* libCGAL.dylib in Frameworks */,
+				F9F5B8B921DEC0AF009DC63E /* libCoin.60.1.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F5B89621DEBBEB009DC63E = {
+			isa = PBXGroup;
+			children = (
+				F9F5B8A121DEBBEB009DC63E /* HoleFill */,
+				F9F5B8A021DEBBEB009DC63E /* Products */,
+				F9F5B8B521DEC0A4009DC63E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F5B8A021DEBBEB009DC63E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5B89F21DEBBEB009DC63E /* HoleFill */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F5B8A121DEBBEB009DC63E /* HoleFill */ = {
+			isa = PBXGroup;
+			children = (
+				F9F5B8A221DEBBEB009DC63E /* main.cpp */,
+				F9F5B8AF21DEBDB2009DC63E /* Mesh.cpp */,
+				F9F5B8B021DEBDB2009DC63E /* Mesh.hpp */,
+				F9F5B8AC21DEBD43009DC63E /* Painter.cpp */,
+				F9F5B8AD21DEBD43009DC63E /* Painter.hpp */,
+				F925E31521E0A25600E9428C /* HoleFiller.cpp */,
+				F925E31621E0A25600E9428C /* HoleFiller.hpp */,
+			);
+			path = HoleFill;
+			sourceTree = "<group>";
+		};
+		F9F5B8B521DEC0A4009DC63E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9C546BD21E620D200ACE011 /* libCGAL.dylib */,
+				F9C546BB21E620D000ACE011 /* libCGAL.13.dylib */,
+				F9C546B921E620CE00ACE011 /* libCGAL.13.0.2.dylib */,
+				F9C546B721E620CC00ACE011 /* libCGAL_Core.dylib */,
+				F9C546B521E620CA00ACE011 /* libCGAL_Core.13.dylib */,
+				F9C546B321E620C700ACE011 /* libCGAL_Core.13.0.2.dylib */,
+				F9C546B121E5FE9900ACE011 /* libCGAL.dylib */,
+				F9C546AF21E5FE9700ACE011 /* libCGAL.13.dylib */,
+				F9C546AD21E5FE9500ACE011 /* libCGAL_Core.dylib */,
+				F9C546AB21E5FE9300ACE011 /* libCGAL_Core.13.dylib */,
+				F9C546A921E5FE8500ACE011 /* libCGAL.13.0.2.dylib */,
+				F9C546A721E5FE8100ACE011 /* libCGAL_Core.13.0.2.dylib */,
+				F9F5B8B821DEC0AF009DC63E /* libCoin.60.1.3.dylib */,
+				F9F5B8B621DEC0A4009DC63E /* libSoQt.20.5.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F5B89E21DEBBEB009DC63E /* HoleFill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F5B8A621DEBBEB009DC63E /* Build configuration list for PBXNativeTarget "HoleFill" */;
+			buildPhases = (
+				F9F5B89B21DEBBEB009DC63E /* Sources */,
+				F9F5B89C21DEBBEB009DC63E /* Frameworks */,
+				F9F5B89D21DEBBEB009DC63E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoleFill;
+			productName = HoleFill;
+			productReference = F9F5B89F21DEBBEB009DC63E /* HoleFill */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F5B89721DEBBEB009DC63E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ethem Bilgehan CICEK";
+				TargetAttributes = {
+					F9F5B89E21DEBBEB009DC63E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F9F5B89A21DEBBEB009DC63E /* Build configuration list for PBXProject "HoleFill" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9F5B89621DEBBEB009DC63E;
+			productRefGroup = F9F5B8A021DEBBEB009DC63E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F5B89E21DEBBEB009DC63E /* HoleFill */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F5B89B21DEBBEB009DC63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F5B8B121DEBDB2009DC63E /* Mesh.cpp in Sources */,
+				F925E31721E0A25600E9428C /* HoleFiller.cpp in Sources */,
+				F9F5B8A321DEBBEB009DC63E /* main.cpp in Sources */,
+				F9F5B8AE21DEBD43009DC63E /* Painter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9F5B8A421DEBBEB009DC63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F9F5B8A521DEBBEB009DC63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F9F5B8A721DEBBEB009DC63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/Library/Frameworks/SoQt.framework/Versions/A/Libraries,
+					/opt/local/Library/Frameworks/Inventor.framework/Versions/C/Libraries,
+					/usr/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9F5B8A821DEBBEB009DC63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/Library/Frameworks/SoQt.framework/Versions/A/Libraries,
+					/opt/local/Library/Frameworks/Inventor.framework/Versions/C/Libraries,
+					/usr/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F5B89A21DEBBEB009DC63E /* Build configuration list for PBXProject "HoleFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F5B8A421DEBBEB009DC63E /* Debug */,
+				F9F5B8A521DEBBEB009DC63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F5B8A621DEBBEB009DC63E /* Build configuration list for PBXNativeTarget "HoleFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F5B8A721DEBBEB009DC63E /* Debug */,
+				F9F5B8A821DEBBEB009DC63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F5B89721DEBBEB009DC63E /* Project object */;
+}
