@@ -18,3 +18,8 @@ Hole Filling;
 Hole filling method(Filling Holes in Meshes by Peter Liepa ) for simply patching holes of 3D bunny object is implemented in this project.
 
 After patching process, Mesh smoothing is applied to holes' vertices by calculating avarage length of their 1-ring neighborhood.
+
+Geodesic Distance Between Two Mesh Vertices(Dijkstra);
+
+Geodesic distance between two mesh vertices is the length of the shortest path along the surface that connects the two vertices.
+
