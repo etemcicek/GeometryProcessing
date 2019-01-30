@@ -11,3 +11,10 @@ Displaying 2D face mesh, Fade2D Library (issued by Geom Software) is used.
 
 Fade2D Library:http://www.geom.at
 Eigen Library:http://eigen.tuxfamily.org/index.php?title=Main_Page
+
+
+Hole Filling;
+
+Hole filling method(Filling Holes in Meshes by Peter Liepa ) for simply patching holes of 3D bunny object is implemented in this project.
+
+After patching process, Mesh smoothing is applied to holes' vertices by calculating avarage length of their 1-ring neighborhood.
