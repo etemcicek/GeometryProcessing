@@ -49,3 +49,7 @@ Geodesic Distance Between Two Mesh Vertices(Dijkstra);
 
 Geodesic distance between two mesh vertices is the length of the shortest path along the surface that connects the two vertices.
 
+Shortest Path:
+
+<img width="799" alt="shortestpath" src="https://user-images.githubusercontent.com/36789930/52199262-a15d2980-2876-11e9-83bd-3d282607224e.png">
+
