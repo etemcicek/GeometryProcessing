@@ -12,6 +12,13 @@ Displaying 2D face mesh, Fade2D Library (issued by Geom Software) is used.
 Fade2D Library:http://www.geom.at
 Eigen Library:http://eigen.tuxfamily.org/index.php?title=Main_Page
 
+Input:
+<img width="636" alt="3dface" src="https://user-images.githubusercontent.com/36789930/52198992-d1f09380-2875-11e9-8fe4-5965cbc7a87e.png">
+
+Output:
+
+<img width="684" alt="flattenedface" src="https://user-images.githubusercontent.com/36789930/52199011-e46acd00-2875-11e9-9149-7c1339492586.png">
+
 
 Hole Filling;
 
