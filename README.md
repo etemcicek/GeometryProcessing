@@ -27,6 +27,24 @@ Hole filling method(Filling Holes in Meshes by Peter Liepa ) for simply patching
 
 After patching process, Mesh smoothing is applied to holes' vertices by calculating avarage length of their 1-ring neighborhood.
 
+Before Triangulation:
+
+<img width="636" alt="bunnyholes" src="https://user-images.githubusercontent.com/36789930/52199167-54795300-2876-11e9-8de9-ee67f1115b21.png">
+
+After Triangulation:
+
+<img width="642" alt="triangulationofholes" src="https://user-images.githubusercontent.com/36789930/52199182-5fcc7e80-2876-11e9-8d5b-65f5aad3fbb7.png">
+
+Refinement:
+
+<img width="642" alt="refinement" src="https://user-images.githubusercontent.com/36789930/52199199-71158b00-2876-11e9-81a5-e1cc26673cd0.png">
+
+Smoothing:
+
+<img width="641" alt="smoothing" src="https://user-images.githubusercontent.com/36789930/52199217-7e327a00-2876-11e9-981f-857eaba671f9.png">
+
+
+
 Geodesic Distance Between Two Mesh Vertices(Dijkstra);
 
 Geodesic distance between two mesh vertices is the length of the shortest path along the surface that connects the two vertices.
