@@ -15,14 +15,10 @@
 
 using namespace std;
 int main(int argc, char *argv[]) {
-    
-    
-    
+     
     Mesh mesh;
     
     mesh.loadOff("/Users/ethembilgehancicek/Desktop/C++/disk_parameterization/facem.off");
-    
-    
     
     mesh.FindBorder();
     mesh.MatrixMultip();
